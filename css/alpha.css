@@ -1,0 +1,1493 @@
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	font-size:11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height:18px;
+	/*background:url(../images/pic_background_header_flash/pic_background_header_flash.jpg) repeat-x;*/
+}
+
+* { behavior: url(iepngfix.htc) }
+
+.clearFloats {
+	clear:both;
+}
+
+#mainBox {
+	width:980px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#containerLogoMeniu {
+	width:980px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logo {
+	width:180px;
+	height:138px;
+	padding-top:20px;
+	float:left;
+}
+
+
+
+#meniu {
+	width:795px;
+	height:38px;
+	float:left;
+	margin-top:120px;
+	margin-left:5px;/
+}
+
+.containerButonMenu {
+	width:106px;
+	height:38px;
+	float:left;
+	margin-left:5px;
+}
+
+
+#backgroundHeaderFlash {
+	width:980px;
+	height:331px;
+	position:absolute;
+	z-index:0;
+}
+
+	.headerFlash {
+		width:980px;
+		height:331px;
+		margin-left:auto;
+		margin-right:auto;
+		/*padding-top:4px;*/
+		
+	}
+	
+
+
+#containerHeader3Columns { /*main container for the whole application below the flash banners*/
+	width:980px;
+	position:absolute;
+	z-index:1;
+	margin-top:305px;
+	
+}
+
+.headerDespreAlpha, .headerServiciiAlpha, .headerPortofoliuAlpha {
+	width:323px;
+	float:left;
+}
+
+
+
+
+
+	.headerDespreAlpha h2 {
+		font-size:14px;
+		color:#672900;
+		margin:0;
+		padding:0;
+		padding-top:20px;
+		padding-left:155px;
+	}
+	
+	.headerDespreAlpha h4 {
+		font-size:12px;
+		color:#672900;
+		margin:0;
+		padding:0;
+		padding-left:185px;
+	}
+	
+	
+	.headerServiciiAlpha h2 {
+		font-size:14px;
+		color:#08265e;
+		margin:0;
+		padding:0;
+		padding-top:20px;
+		padding-left:155px;
+	}
+	
+	.headerServiciiAlpha h4 {
+		font-size:12px;
+		color:#08265e;
+		margin:0;
+		padding:0;
+		padding-left:185px;
+	}
+	
+	
+	.headerPortofoliuAlpha h2 {
+		font-size:14px;
+		color:#020359;
+		margin:0;
+		padding:0;
+		padding-top:20px;
+		padding-left:150px;
+	}
+	
+	.headerPortofoliuAlpha h4 {
+		font-size:12px;
+		color:#020359;
+		margin:0;
+		padding:0;
+		padding-left:150px;
+	}
+	
+	
+	#header3Columns {
+		width:980px;
+		height:88px;
+		margin-left:auto;
+		margin-right:auto;
+		background:url(../images/png/header_3_column.png) no-repeat;
+	}
+	
+	
+	
+	
+	
+	
+	#middlePart3Columns {
+		width:980px;
+		height:100%;
+		margin-left:auto;
+		margin-right:auto;
+		background:url(../images/png/middle_3_column.png) repeat-y;
+	}
+	
+		#middlePart3Columns p {
+			margin:0;
+			padding:0;
+		}
+		
+		.containerDespreNoi, .containerServicii, .containerPortofoliuLucrari {
+			width:324px;
+			float:left;
+			margin-top:10px;
+		}
+		
+			.sectiuneDespreNoi {
+				width:280px;
+				margin-left:30px;
+				margin-bottom:20px;
+			}
+			
+			
+			
+				.sectiuneDespreNoi h3 {
+					margin:0;
+					padding:0;
+					font-size:14px;
+					color:#fff;
+					padding-bottom:10px;
+				}
+				
+				.sectiuneDespreNoi p {
+					margin:0;
+					padding:0;
+					color:#fff;
+				}
+				
+							
+	.prezentareNoutati  {
+		width:310px;
+		margin-left:auto;
+	}
+	
+	.containerSmallPicsNews {
+		width:305px;
+		margin-left:auto;
+	}
+	
+	.containerSmallPicsNews {
+		margin-top:10px;
+	}
+	
+		.containerSmallPicsNews img {
+			float:left;
+			margin-right:2px;
+			margin-bottom:15px;
+		}
+		
+		.containerSmallPicsNews h3 {
+			margin:0;
+			padding:0;
+			margin-bottom:10px;
+			color:#666;
+			font-size:13px;
+		}
+		
+		.containerSmallPicsNews p {
+			color:#666;
+		}
+	
+		
+			
+		
+							
+							
+/*Sectiunea Servicii*/
+
+.containerPrezentareServicii {
+	width:650px;
+	float:left;
+}
+
+	.bottomDetaliiNoutati {
+			width:324px;
+			padding-top:25px;
+			padding-left:6px;
+			text-align:center;
+			float:left;
+		}
+		
+			.bottomDetaliiNoutati a {
+				color:#fff;
+				font-size:10px;
+				text-decoration:none;
+			}
+			
+			.bottomDetaliiNoutati a:hover {
+				text-decoration:underline;
+			}
+
+.descriereServiciu {
+	width:250px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #6d97e7;
+}
+
+	.descriereServiciu h3 {
+		margin:0;
+		padding:0;
+		font-size:14px;
+		color:#fff;
+		padding-bottom:10px;
+	}
+	
+	.descriereServiciu p {
+		color:#fff;
+	}
+		
+		
+		
+	
+	#bottomPart3Columns {
+		width:980px;
+		height:68px;
+		margin-left:auto;
+		margin-right:auto;
+		background:url(../images/png/bottom_3_column.png) no-repeat;
+	}
+	
+		.bottomDetaliiDespreNoi {
+			width:324px;
+			padding-top:25px;
+			text-align:center;
+			float:left;
+		}
+		
+			.bottomDetaliiDespreNoi a {
+				color:#fff;
+				font-size:10px;
+				text-decoration:none;
+			}
+			
+			.bottomDetaliiDespreNoi a:hover {
+				text-decoration:underline;
+			}
+	
+	
+	
+	
+/*Sectiunea Portofoliu*/
+
+	
+	
+	
+	
+	
+.headerAlteInformatiiUtile {
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+}
+
+	.headerAlteInformatiiUtile h3 {
+		margin:0;
+		padding:0;
+		color:#666;
+		font-size:15px;
+	}
+	
+	
+.containerInfoBottom {
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	padding-bottom:40px;
+	border-bottom:1px solid #999999;
+}
+
+	.containerArticolePresa {
+		width:327px;
+		float:left;
+		margin-top:10px;
+		margin-right:15px;
+	}
+	
+		.containerArticolePresa a {
+			color:#666;
+			text-decoration:none;
+		}
+		
+		.containerArticolePresa a:hover {
+			text-decoration:underline;
+		}
+	
+		.containerArticolePresa h3 {
+			font-size:12px;
+			color:#666;
+		}
+		
+			.containerArticol {
+				width:320px;
+				border-bottom:1px solid #999999;
+				padding-bottom:10px;
+				margin-bottom:20px;
+			}
+			
+			
+			
+				.containerArticol p {
+					color:#666;
+				}
+				
+				.containerArticol a {
+					color:#666;
+					text-decoration:none;
+				}
+				
+				.containerArticol a:hover {
+					text-decoration:underline;
+				}
+				
+				.containerVideoclip {
+					width:320px;
+				}
+				
+					.containerVideoclip img {
+						margin-left:10px;
+					}
+				
+	.containerZonaContact {
+		width:280px;
+		float:left;
+		margin-top:10px;
+		margin-right:15px;
+		color:#666;
+	}
+	
+		.containerZonaContact h3 {
+			font-size:12px;
+		}
+	
+		.containerInformatiiContact {
+			width:273px;
+		}
+		
+		.containerPozaHartaInteractiva {
+			width:270px;
+			height:80px;
+			margin-top:25px;
+			background:url(../images/png/harta_virtuala.png) no-repeat;
+			padding-top:50px;
+			text-align:center;
+		}
+		
+			.containerPozaHartaInteractiva a {
+				margin:0;
+				padding:0;
+				color:#006;
+				font-weight:bold;
+				text-decoration:none;
+			}
+			
+			.containerPozaHartaInteractiva a:hover {
+				text-decoration:underline;
+			}
+				
+					
+#footer {
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+}
+
+	.menuFooter {
+		width:980px;
+		margin-top:30px;
+		margin-bottom:10px;
+		text-align:center;
+	}
+	
+		.menuFooter ul {
+			display:inline;
+			margin:0;
+			padding:0;
+			color:#006;
+			font-weight:bold;
+		}
+		
+			.menuFooter ul a {
+				color:#006;
+				text-decoration:none;
+			}
+			
+			.menuFooter ul a:hover {
+				color:#006;
+				text-decoration:underline;
+			}
+		
+			.menuFooter ul li {
+				display:inline;
+				padding-right:5px;
+			}
+
+
+.logoAlphaFooter {
+	width:207px;
+	float:left;
+	padding-top:5px;
+	margin-left:80px;
+}
+
+	.logoAlphaFooter img {
+		float:left;
+	}
+	
+		.logoAlphaFooter p {
+			margin:0;
+			padding:0;
+			padding-top:25px;
+			color:#006;
+			line-height:10px;
+		}
+			
+.developedBy {
+	width:200px;
+	padding-top:15px;
+	float:left;
+}
+
+	.developedBy img {
+		padding-left:130px;
+	}
+	
+	
+	
+
+/*Pagina despre noi*/
+
+#header1Columns {
+	width:980px;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	background: url(../images/png/portofoliu_lucrari/header_1_column.png) no-repeat;
+}
+
+#header2Columns {
+	width:980px;
+	height:88px;
+	margin-left:auto;
+	margin-right:auto;
+	background:url(../images/png/pagina_despre_noi/header_2_columns.png) no-repeat;
+}
+
+#middlePart1Column {
+	width:980px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	background: url(../images/png/portofoliu_lucrari/middle_1_column.png) repeat-y;
+}
+
+
+#middlePart2Columns {
+	width:980px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	background: url(../images/png/pagina_despre_noi/middle_2_columns.png) repeat-y;
+}
+
+#bottomPart1Column {
+	width:980px;
+	height:21px;
+	margin-left:auto;
+	margin-right:auto;
+	background: url(../images/png/noutati/bottom_noutati.png) no-repeat;
+}
+
+
+#bottomPart2Columns {
+	width:980px;
+	height:68px;
+	margin-left:auto;
+	margin-right:auto;
+	background: url(../images/png/pagina_despre_noi/bottom_2_columns.png) no-repeat;
+}
+
+	.headerDespreEchipaAlpha {
+		width:980px;
+		text-align:center;
+	}
+	
+	
+	
+		.headerDespreEchipaAlpha h2 {
+			font-size:16px;
+			color:#672900;
+			margin:0;
+			padding:0;
+			padding-top:30px;
+			padding-left:40px;
+	}
+
+
+
+.containerTextDespreNoi {
+	width:923px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+}
+
+	.headerTopDespreNoi {
+		width:923px;
+		height:21px;
+		background:url(../images/backgrounds_despre_noi/header_2_columns.jpg) no-repeat;
+	}
+	
+	.middleDespreNoi {
+		width:923px;
+		height:100%;
+		background:url(../images/backgrounds_despre_noi/middle_2_columns.jpg) repeat-y;
+	}
+	
+	.bottomDespreNoi {
+		width:923px;
+		height:21px;
+		background:url(../images/backgrounds_despre_noi/bottom_2_columns.jpg) no-repeat;
+	}
+	
+		.textPrezentareDespreNoi {
+			width:630px;
+			float:left;
+		}
+		
+			.textPrezentareDespreNoi h3 {
+				margin:0;
+				padding:0;
+				font-size:14px;
+				color:#999;
+				padding-left:30px;
+			}
+			
+			.textPrezentareDespreNoi p {
+				margin:0;
+				padding:0;
+				padding-top:20px;
+				padding-bottom:20px;
+				padding-left:30px;
+				padding-right:30px;
+				color:#999;
+				
+			}
+
+		.containerTempPrezentareEchipa {
+			width:281px;
+			margin-left:12px;
+			float:left;
+		}
+		
+			.containerTempPrezentareEchipa h3 {
+				margin:0;
+				padding:0;
+				font-size:14px;
+				color:#999;
+				padding-left:25px;
+			}
+			
+			
+				.containerPicsTempEchipa {
+					width:230px;
+					margin-left:auto;
+					margin-right:auto;
+					margin-top:15px;
+					text-align:center;
+				}
+				
+					.containerPicsTempEchipa a {
+						color:#999;
+						text-decoration:none;
+					}
+					
+						.containerPicsTempEchipa a:hover {
+						text-decoration:underline;
+					}
+				
+					.containerPicsTempEchipa img {
+						float:left;
+						margin-right:5px;
+						margin-bottom:5px;
+					}
+					
+						.containerPicsTempEchipa p {
+							width:109px;
+							text-align:center;
+							margin:0;
+							padding:0;
+							color:#999;
+							float:left;
+							margin-bottom:10px;
+						}
+						
+					.numeConducereaMedium {
+						width:230px;
+						
+					}
+					
+						.numeConducereaMedium p {
+							width:230px;
+							text-align:center;
+						}
+
+
+.meniuEchipeAlteDomenii {
+	width:280px;
+	float:left;
+	margin-top:-15px;
+	margin-bottom:25px;
+	margin-left:60px;
+	border-bottom:1px solid #020359;
+	padding-bottom:10px;
+	
+}
+
+	.meniuEchipeAlteDomenii h3 {
+		margin:0;
+		padding:0;
+		font-size:12px;
+		color:#020359;
+	}
+	
+	.meniuEchipeAlteDomenii a {
+		text-decoration:none;
+		color:#020359;
+	}
+	
+	.meniuEchipeAlteDomenii a:hover {
+		background-color: #FF9900;
+		padding-top:10px;
+		padding-bottom:10px;
+		padding-right:156px;
+	}
+	
+	
+	.paginare {
+		width:600px;
+		padding-top:20px;
+		float:left;
+		margin-right:56px;
+	}
+	
+		.paginare ul {
+			margin:0;
+			padding:0;
+			padding-left:20px;
+			color:#672900;
+			display:inline;
+		}
+		
+			.paginare ul li {
+				display:inline;
+				padding-right:2px;
+			}
+			
+			.paginare ul a {
+				margin:0;
+				padding:0;
+				color:#672900;
+				font-weight:bold;
+				text-decoration:none;
+			}
+			
+			.paginare ul a:hover {
+				text-decoration:underline;
+			}	
+	
+	
+/*Pagina Servicii*/
+
+#header2ColumnsServicii {
+	width:980px;
+	height:88px;
+	margin-left:auto;
+	margin-right:auto;
+	background: url(../images/png/pagina_servicii/header_2_column.png) no-repeat;
+}
+
+#middlePart2ColumnsServicii {
+	width:980px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	background: url(../images/png/pagina_servicii/middle_2_column.png) repeat-y;
+}
+
+#bottomPart2ColumnsServicii {
+	width:980px;
+	height:68px;
+	margin-left:auto;
+	margin-right:auto;
+	background: url(../images/png/pagina_servicii/bottom_2_columns.png) no-repeat;
+}
+
+	.paginareServicii {
+		width:650px;
+		padding-top:15px;
+		float:left;
+	}
+	
+		.paginareServicii ul {
+			margin:0;
+			padding:0;
+			padding-left:50px;
+			color:#fff;
+			display:inline;
+		}
+		
+			.paginareServicii ul li {
+				display:inline;
+				padding-right:5px;
+				padding-left:5px;
+				border-right:1px solid #fff;
+			}
+			
+			.paginareServicii ul a {
+				margin:0;
+				padding:0;
+				color:#fff;
+				font-weight:bold;
+				text-decoration:none;
+			}
+			
+			.paginareServicii ul a:hover {
+				text-decoration:underline;
+			}
+			
+	.headerDespreEchipaAlphaServicii {
+		width:650px;
+		float:left;
+	}
+	
+		.headerDespreEchipaAlphaServicii h2 {
+			color:#08265e;
+			font-size:14px;
+			margin:0;
+			padding:0;
+			padding-top:20px;
+			padding-left:42px;
+		}
+		
+	.prezentareServicii {
+		width:600px;
+		margin-left:20px;
+		margin-right:30px;
+		padding-top:20px;
+		padding-bottom:10px;
+		margin-bottom:10px;
+		border-bottom: 1px solid #6d97e7;
+		float:left;
+	}
+	
+		.prezentareServicii h3 {
+			margin:0;
+			padding:0;
+			color:#fff;
+			font-size:14px;
+			padding-left:30px;
+		}	
+		
+		.prezentareServicii p {
+			color:#fff;
+			padding-right:30px;
+			padding-left:30px;
+		}
+		
+.containerPortofoliuLucrariServicii {
+			width:324px;
+			float:left;
+			margin-top:-180px;
+		}
+			
+.prezentareLucrarePortofoliuServicii {
+	width:310px;
+	height:108px;
+	margin-left:14px;
+	margin-bottom:10px;
+	background:url(../images/pic_suport_lucrari/pic_suport_lucrari.jpg) no-repeat;	
+}
+
+	.prezentareLucrarePortofoliuServicii img {
+		padding-top:8px;
+		padding-left:9px;
+		margin-right:10px;
+		float:left;
+	}
+	
+	.textPrezentareLucrareServicii {
+		width:150px;
+		float:left;
+		margin:0;
+		padding:0;
+		color:#fff;
+	}
+		.textPrezentareLucrareServicii a {
+			color:#fff;
+			font-weight:bold;
+		}
+		
+		
+		
+/*Pagina Portofoliu Lucrari*/	
+
+#header1ColumnsPortofoliu {
+	width:980px;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	background: url(../images/png/portofoliu_lucrari/header_1_column.png) no-repeat;
+}
+
+#middlePart1ColumnPortofoliu {
+	width:980px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	background: url(../images/png/portofoliu_lucrari/middle_1_column.png) repeat-y;
+}
+
+#bottomPart1ColumnPortofoliu {
+	width:980px;
+	height:41px;
+	margin-left:auto;
+	margin-right:auto;
+	background: url(../images/png/portofoliu_lucrari/bottom_1_column.png) no-repeat;
+}
+
+	.containerLucrariPortofoliu {
+		width:946px;
+		height:100%;
+		margin-left:auto;
+		margin-right:auto;
+		padding-top:20px;
+		padding-bottom:10px;
+}
+
+	.columnPortofoliu {
+		width:311px;
+		float:left;
+		margin-left:2px;
+		margin-right:2px;
+	}
+		
+		.containerLucrare {
+			width:311px;
+			height:108px;
+			margin-bottom:5px;
+			background:url(../images/backgrounds_portofoliu/bck_portfoliu_lucrari.jpg) no-repeat;
+		}
+		
+	.paginarePortofoliu {
+		width:946px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+		.paginarePortofoliu ul {
+			display:inline;
+			margin:0;
+			padding:0;
+			color:#672900;
+			padding-left:10px;
+			font-weight:bold;
+		}
+			.paginarePortofoliu ul li {
+				display:inline;
+				padding-left:5px;
+				padding-right:5px;
+				border-right:1px solid #672900;
+			}
+			
+				.paginarePortofoliu ul li a {
+					color:#672900;
+					text-decoration:none;
+					font-weight:bold;
+				}
+				
+				.paginarePortofoliu ul li a:hover {
+					text-decoration:underline;
+				}
+				
+		.picLucrare {
+			width:109px;
+			height:91px;
+			float:left;
+			padding-top:9px;
+			padding-left:9px;
+		}
+		
+		.textDescriereLucrare {
+			width:180px;
+			float:left;
+		}
+		
+			.textDescriereLucrare p {
+				margin:0;
+				padding:0;
+				padding-top:9px;
+				padding-left:9px;
+				padding-bottom:10px;
+				line-height:16px;
+				color:#fff;
+			}
+			
+			.textDescriereLucrare a {
+				padding-left:9px;
+				color:#fff;
+				text-decoration:none;
+				font-weight:bold;
+			}
+			
+			.textDescriereLucrare a:hover {
+				text-decoration:underline;
+			}
+			
+			
+/*Sectiune Galerie Foto*/
+
+#bottomPart1ColumnGalerieFoto {
+	width:980px;
+	height:41px;
+	margin-left:auto;
+	margin-right:auto;
+	background: url(../images/png/galerie_foto/bottom_1_column.png) no-repeat;
+}
+
+.containerColumnsGalerieFoto {
+	width:780px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+}
+
+.background2PicsTop {
+	width:780px;
+	height:23px;
+	background:url(../images/backgrounds_despre_noi/2_pics_top.jpg) no-repeat;
+}
+
+.background2PicsMiddle {
+	width:780px;
+	height:100%;
+	background:url(../images/backgrounds_despre_noi/2_pics_middle.jpg) repeat-y;
+}
+
+.background2PicsBottom {
+	width:780px;
+	height:23px;
+	background:url(../images/backgrounds_despre_noi/2_pics_bottom.jpg) no-repeat;
+}	
+
+	.containerConducere {
+		width:780px;
+		text-align:center;
+	}
+	
+		.containerConducere h3 {
+			margin:0;
+			padding:0;
+			font-size:16px;
+			color:#663300;
+			padding-bottom:20px;
+			text-transform:uppercase;
+		}
+	
+		.containerConducere p {
+			margin:0;
+			padding:0;
+			color:#663300;
+			font-size:11px;
+			font-weight:bold;
+		}
+		
+		
+		.containerConducere4Pics {
+			width:550px;
+			margin-left:auto;
+			margin-right:auto;
+			text-align:center;
+	}
+	
+		.containerConducere4Pics h3 {
+			margin:0;
+			padding:0;
+			font-size:16px;
+			color:#663300;
+			padding-bottom:20px;
+			text-transform:uppercase;
+		}
+	
+		.containerConducere4Pics p {
+			margin:0;
+			padding:0;
+			color:#663300;
+			font-size:11px;
+			font-weight:bold;
+		}
+		
+			.container2PicsTeam {
+				width:243px;
+				float:left;
+				padding-top:15px;
+				margin-left:12px;
+			}
+			
+			.container1PicTeam {
+				width:140px;
+				float:left;
+				padding-top:15px;
+				margin-left:12px;
+			}
+			
+				
+			
+				.containerPicSpecial {
+					width:119px;
+					text-align:center;
+					margin-left:auto;
+					margin-right:auto;
+				}
+				
+					.containerDenumireDepartamentSpecial {
+						width:119px;
+						height:60px;
+						margin-left:auto;
+						margin-right:auto;
+						text-align:center;
+					}
+					
+						.containerDenumireDepartamentSpecial h3 {
+							margin:0;
+							padding:0;
+							font-size:12px;
+							padding-bottom:5px;
+						}
+			
+				.containerPic {
+					width:119px;
+					float:left;
+					margin-left:2px;
+					text-align:center;
+				}
+				
+					.containerDenumireDepartament {
+						width:119px;
+						float:left;
+					}
+					
+						.containerDenumireDepartament h3 {
+							margin:0;
+							padding:0;
+							font-size:12px;
+							padding-bottom:5px;
+						}
+				
+					
+				
+	.columnGalerieFoto {
+		width:250px;
+		height:515px;
+		background:url(../images/background_galerie_foto/background_galerie_foto.jpg) no-repeat;
+		float:left;
+		margin-left:5px;
+		
+	}
+	
+		.columnGalerieFoto h3 {
+			margin:0;
+			padding:0;
+			font-size:12px;
+			color:#999;
+			padding-top:25px;
+			padding-left:15px;
+			padding-bottom:20px;
+		}
+	
+	.paginareGalerieFoto {
+		width:946px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+		.paginareGalerieFoto ul {
+			display:inline;
+			margin:0;
+			padding:0;
+			color:#672900;
+			padding-left:90px;
+			font-weight:bold;
+		}
+			.paginareGalerieFoto ul li {
+				display:inline;
+				padding-left:5px;
+				padding-right:5px;
+				border-right:1px solid #672900;
+			}
+			
+				.paginareGalerieFoto ul li a {
+					color:#672900;
+					text-decoration:none;
+					font-weight:bold;
+				}
+				
+				.paginareGalerieFoto ul li a:hover {
+					text-decoration:underline;
+				}
+				
+		.containerPicGalerieFoto {
+			width:109px;
+			/*height:91px;*/
+			float:left;
+			margin-top:10px;
+			margin-left:10px;
+		}
+		
+		
+/*Sectiunea Echipa Alpha*/
+
+.header3ColumnsEchipaAlpha {
+	width:758px;
+	height:23px;
+	background:url(../images/background_echipa/header_3_columns.jpg) no-repeat;
+}
+
+.middle3ColumnsEchipaAlpha {
+	width:758px;
+	height:100%;
+	background:url(../images/background_echipa/middle_3_columns.jpg) repeat-y;
+}
+
+.columnEchipaAlpha {
+	width:250px;
+	float:left;
+	margin-left:2px;
+}
+
+	.columnEchipaAlpha h3 {
+		margin:0;
+		padding:0;
+		font-size:12px;
+		padding-left:10px;
+		color:#ff6600;
+	}
+	
+	.columnEchipaAlpha p {
+		width:109px;
+		text-align:center;
+		margin:0;
+		padding:0;
+		color:#999;
+		margin-bottom:10px;
+	}
+
+
+.bottom3ColumnsEchipaAlpha {
+	width:758px;
+	height:23px;
+	background:url(../images/background_echipa/bottom_3_columns.jpg) no-repeat;
+}
+
+
+
+/*Sectiune Ultimele Noutati*/
+
+#bottomPart1ColumnNoutati {
+	width:980px;
+	height:33px;
+	margin-left:auto;
+	margin-right:auto;
+	background: url(../images/png/noutati/bottom_noutati.png) no-repeat; 
+}
+
+.containerPicBigUltimeleNoutati {
+	width:385px;
+	float:left;
+	margin-right:4px;
+}
+
+.containerPicsSmallUltimeleNoutati {
+	width:230px;
+	float:left;
+	margin-left:10px;
+}
+
+.containerDescriereUltimeleNoutati {
+	width:306px;
+	float:left;
+	margin-left:10px;
+}
+
+	.headerUltimeleNoutati {
+		width:306px;
+		height:20px;
+		background:url(../images/pics_noutati/background_descriere/header_descriere.jpg) no-repeat;
+	}
+	
+	.middleUltimeleNoutati {
+		width:306px;
+		height:100%;
+		background:url(../images/pics_noutati/background_descriere/middle_descriere.jpg) repeat-y;
+	}
+	
+		.middleUltimeleNoutati h3 {
+			margin:0;
+			padding:0;
+			font-size:13px;
+			color:#ff9900;
+			padding-left:15px;
+		}
+		
+		.middleUltimeleNoutati p {
+			margin:0;
+			padding:0;
+			color: #999999;
+			padding-top:15px;
+			padding-bottom:15px;
+			padding-left:15px;
+			padding-right:15px;
+		}	
+	
+	.bottomUltimeleNoutati {
+		width:306px;
+		height:20px;
+		background:url(../images/pics_noutati/background_descriere/bottom_descriere.jpg) no-repeat;
+	}
+
+	.containerPicSmallUltimeleNoutati {
+		width:74px;
+		height:74px;
+		float:left;
+		margin-right:2px;
+		margin-bottom:2px;
+	}
+	
+.footerUltimeleNoutati {
+	width:937px;
+	padding-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+	.headerFooterUltimeleNoutati {
+		width:937px;
+		height:10px;
+		background:url(../images/pics_noutati/background_bottom_noutati/header.jpg) no-repeat;
+	}
+	
+	.middleFooterUltimeleNoutati {
+		width:937px;
+		height:100%;
+		background:url(../images/pics_noutati/background_bottom_noutati/middle.jpg) repeat-y;
+	}
+	
+	
+	.containerAlteLucrari {
+		width:890px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+		.containerAlteLucrari ul {
+			margin:0;
+			padding:0;
+			display:inline;
+			/*padding-left:20px;*/
+			color: #672900;
+			font-weight:bold;
+		}
+		
+			.containerAlteLucrari ul li {
+				display:inline;
+				padding-right:5px;
+				padding-left:5px;
+				border-right:1px solid #672900;
+			}
+			
+				.containerAlteLucrari ul li a {
+					text-decoration:none;
+					color:#672900;
+					font-weight:bold;
+				}
+				
+				.containerAlteLucrari ul li a:hover {
+					text-decoration:underline;
+				}
+				
+					
+	
+	.bottomFooterUltimeleNoutati {
+		width:937px;
+		height:11px;
+		background:url(../images/pics_noutati/background_bottom_noutati/bottom.jpg) no-repeat;
+	}
+	
+	
+	.logoAdobePDF {
+		width:74px;
+		height:74px;
+		float:left;
+	}
+	
+	.descriereDocumentPDF {
+		width:200px;
+		float:left;
+		padding-top:30px;
+		
+	}
+	
+		.descriereDocumentPDF a {
+			margin:0;
+			padding:0;
+			text-decoration:none;
+			color:#666666;
+			font-weight:bold;
+		}
+		
+		.descriereDocumentPDF a:hover {
+			text-decoration:underline;
+		}
+
+/*Sectiune Contact*/
+
+.containerFormContact {
+	width:470px;
+	margin-left:50px;
+	float:left;
+}
+
+	#formularContact {
+		margin:10px 10px;
+	}
+
+	#inputFields {
+		border:1px solid #999999;
+		margin-bottom:10px;
+	}
+	
+	.nameField {
+		color: #666;
+		font-weight:bold;
+	}
+	
+	#fieldset {
+		border:1px solid #666;
+	}
+	
+	#submitButton {
+		border:1px solid #666;
+		margin-top:10px;
+	}
+	
+#containerGoogleMap {
+	width:400px;
+	height:390px;
+	float:left;
+	margin-left:20px;
+	background-color:#FFFFFF;
+}
+
+#textareaMessage {
+	border:1px solid #666;
+}
+
+
+/*CSS code for Galerie video*/
+
+.containerColumnsGalerieVideo {
+	width:945px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+}
+
+	.containerClipVideo {
+		width:310px;
+		height:292px;
+		float:left;
+		margin-left:5px;
+		margin-bottom:5px;
+		/*background:url(../images/pic_container_background_galerie_video/back_galerie_video.jpg) no-repeat;*/
+	}
+	
+	.paginareGalerieVideo {
+		width:946px;
+		margin-left:auto;
+		margin-right:auto;
+		
+	}
+	
+		.paginareGalerieVideo ul {
+			display:inline;
+			margin:0;
+			padding:0;
+			color:#672900;
+			padding-left:10px;
+			font-weight:bold;
+		}
+			.paginareGalerieVideo ul li {
+				display:inline;
+				padding-left:5px;
+				padding-right:5px;
+				border-right:1px solid #672900;
+			}
+			
+				.paginareGalerieVideo ul li a {
+					color:#672900;
+					text-decoration:none;
+					font-weight:bold;
+				}
+				
+				.paginareGalerieVideo ul li a:hover {
+					text-decoration:underline;
+				}
